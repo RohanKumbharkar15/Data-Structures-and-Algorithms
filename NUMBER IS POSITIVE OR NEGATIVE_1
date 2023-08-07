@@ -1,0 +1,27 @@
+public class POSITIVE_NEGATIVE_NO_1 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		String choice;
+		do {
+		System.out.println("\nenter any number\n");
+		int n=sc.nextInt();
+		
+		if(n>0)
+		{
+			System.out.println("positive number "+n);
+		}
+		else if(n<0){
+			System.out.println("negative number "+n);
+		}
+		else
+		{
+			System.out.println("zero number");
+		}
+		System.out.println("do you want to continue");
+		//choice =sc.next();  
+		}while(sc.next().equals("yes"));
+			
+	}
+
+}
